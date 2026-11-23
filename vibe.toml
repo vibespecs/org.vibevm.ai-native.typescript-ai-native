@@ -2,7 +2,7 @@
 name = "typescript-ai-native"
 group = "org.vibevm.ai-native"
 kind = "stack"
-version = "1.0.0"
+version = "1.0.12"
 epoch = 1
 format = "normal"
 authors = ["Oleg Chirukhin"]
@@ -20,4 +20,4 @@ requires_kinds = []
 # and version-mirrors the stack. core-ai-native arrives transitively through
 # the -lang stack's own `[requires]`.
 [requires]
-packages = { "lang:org.vibevm.ai-native/typescript-ai-native-lang" = "=1.0.0", "mcp:org.vibevm.ai-native/typescript-ai-native-mcp" = "=1.0.0" }
+packages = { "lang:org.vibevm.ai-native/typescript-ai-native-lang" = "=1.0.12", "mcp:org.vibevm.ai-native/typescript-ai-native-mcp" = "=1.0.12" }
